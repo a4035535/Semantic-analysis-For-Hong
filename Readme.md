@@ -22,7 +22,7 @@ def delete_punctuations(text, replace=''):
 然而，这个轮子让我折腾了一晚上，CSDN很多文章都还是不靠谱。最终还是靠着 [官方文档](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer.fit_transform) 才得以解决  
 不过最后的数据结构有点和我自己设计的不太一样，不过整理一下应该还算好用  
 此外，使用sklearn时，sklearn自动去除了一些单字（如下图），对结果影响暂且不知，留作以后分析。  
-![去除单字](、others/001.png)
+![去除单字](others/001.png)
 
 + [x] 提取各个章节特征 2020.6.24  
 今天发现...好像直接整体提取是一样的蛤  
